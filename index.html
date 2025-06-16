@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soton Cars</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- tailwind & daisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style>
+        .font-poppins {
+            font-family: "Poppins", sans-serif;
+        }
+    </style>
+    <style type="text/tailwindcss">
+        @theme {
+          --color-clifford: #E76F51;
+        }
+      </style>
+    <style type="text/tailwindcss">
+        @theme {
+          --color-cliffor:  rgba(231, 111, 81, 0.1);
+          --color-cliffordd:  rgb(231, 111, 81);
+          --color-clint:  rgb(35, 166, 240);
+          --color-star:  rgb(231, 124, 64);
+
+        }
+      </style>
+    <script src="https://kit.fontawesome.com/a2d6b40b52.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<html class="scroll-smooth"></html>
+</head>
+
+<body>
+    <header class="">
+        <!-- navbar -->
+        <div class="navbar bg-base-100 px-2 p-3">
+            <!-- Start Section -->
+            <div class="navbar-start">
+                <!-- Dropdown (Mobile Menu) -->
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 20 20"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                   <section id="Home">
+                     <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1]  shadow bg-base-100 rounded-box w-54">
+                        <li><a href="#Home" class="hover:text-green-700">Home</a></li>
+                        <li><a href="#Why-drive" class="hover:text-green-700">Why Drive With Us</a></li>
+                        <li><a href="#contact" class="hover:text-green-700">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- Logo -->
+                <img src="assest/Add a subheading (11).png" class="w-28 h-16" alt="Logo">
+            </div>
+
+            <!-- Center Section (Visible on large screens only) -->
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a href="#Home" class="hover:text-green-700">Home</a></li>
+                    <li><a href="#why-drive" class="hover:text-green-700">Why Drive With Us</a></li>
+                    <li><a href="#contact" class="hover:text-green-700">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- End Section -->
+            <div class="navbar-end">
+                <a href="#become-driver"><button class="btn bg-green-700 text-white rounded-xl ml-12">Become a Driver</a></a>
+            </div>
+        </div>
+
+
+                   </section>
+        <!-- 1st part -->
+        <div class="max-w-full max-h- m-auto bg-slate-50">
+            <div class="max-w-xl m-auto text-center mb-10">
+                <h1 class="text-5xl font-bold p-6">Drive Your Way to <br>
+                    <div class="text-green-700">Success</div>
+                </h1>
+                <p class="text-sm ">Join Soton Cars and enjoy competitive earnings, flexible hours, and excellent
+                    support. Start your journey as a professional driver today.</p>
+                <div class="mt-5">
+                    <a href="#become-driver"><button class="btn btn-active bg-green-700 text-white">Start Drving Today</button></a>
+                   <a href="#why-drive"> <button class="btn btn-outline bg-white text-green-600 ml-3">Learn More</button></a>
+                </div>
+            </div>
+            <!-- 2nd part -->
+            <div class=" text-center grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1">
+                <div class=" hover:bg-slate-100">
+                    <i class="fa-solid fa-car"></i>
+                    <p class="font-bold">Professional Service</p>
+                    <p class="text-sm">Premium vehicles and professional <br> standards</p>
+
+                </div>
+                <div class=" hover:bg-slate-100">
+                    <i class="fa-solid fa-face-smile "></i>
+                    <p class="font-bold">Driver Community</p>
+                    <p class="text-sm">Join our supportive network of drivers</p>
+
+                </div>
+                <div class=" hover:bg-slate-100">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="font-bold">Local Coverage</p>
+                    <p class="text-sm">Serving Southampton and surrounding <br> areas</p>
+
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="bg-white py-16 px-6 md:px-20 text-center">
+           <section id="why-drive">
+             <h2 class="text-4xl font-bold mb-4">Why Drive With Us?</h2>
+            <p class="text-gray-600 mb-12 max-w-xl mx-auto">
+                Discover the benefits that make Soton Cars the preferred choice for professional drivers
+            </p>
+           </section>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+
+                <!-- Repeat this card 10 times with different content -->
+                <!-- Card 01 -->
+                <div class="bg-gray-50 rounded-xl shadow p-6 flex gap-4 items-start hover:bg-fuchsia-100">
+                    <div class="bg-green-500 text-white font-bold rounded px-4 py-2">01.</div>
+                    <div class="text-left">
+                        <h3 class="font-semibold text-lg flex items-center gap-2">
+                            <i class="fa-solid fa-dollar-sign text-green-500"></i> Competitive Earnings
+                        </h3>
+                        <p class="text-sm text-gray-600">Enjoy excellent income potential with fair commission rates and
+                            plenty of ride opportunities daily.</p>
+                    </div>
+                </div>
+
+                <!-- Card 02 -->
+                <div class="bg-gray-50 rounded-xl shadow p-6 flex gap-4 items-start  hover:bg-fuchsia-100">
+                    <div class="bg-green-500 text-white font-bold rounded px-4 py-2">02.</div>
+                    <div class="text-left">
+                        <h3 class="font-semibold text-lg flex items-center gap-2">
+                            <i class="fa-solid fa-clock text-green-500"></i> Flexible Working Hours
+                        </h3>
+                        <p class="text-sm text-gray-600">Be your own boss — choose when and how long you want to work.
+                            Perfect for full-time or part-time drivers.</p>
+                    </div>
+                </div>
+
+                <!-- Card 03 -->
+                <div class="bg-gray-50 rounded-xl shadow p-6 flex gap-4 items-start  hover:bg-fuchsia-100">
+                    <div class="bg-green-500 text-white font-bold rounded px-4 py-2">03.</div>
+                    <div class="text-left">
+                        <h3 class="font-semibold text-lg flex items-center gap-2">
+                            <i class="fa-solid fa-calendar-check text-green-500"></i> Steady Stream of Bookings
+                        </h3>
+                        <p class="text-sm text-gray-600">Our strong local presence and online visibility ensure you'll
+                            always have rides to keep you busy.</p>
+                    </div>
+                </div>
+
+                <!-- Card 04 -->
+                <div class="bg-gray-50 rounded-xl shadow p-6 flex gap-4 items-start  hover:bg-fuchsia-100">
+                    <div class="bg-green-500 text-white font-bold rounded px-4 py-2">04.</div>
+                    <div class="text-left">
+                        <h3 class="font-semibold text-lg flex items-center gap-2">
+                            <i class="fa-solid fa-headset text-green-500"></i> Driver Support Team
+                        </h3>
+                        <p class="text-sm text-gray-600">We've got your back! Our dedicated support team is here to help
+                            you with any questions or issues on the road.</p>
+                    </div>
+                </div>
+
+                <!-- Card 05 -->
+                <div class="bg-gray-50 rounded-xl shadow p-6 flex gap-4 items-start  hover:bg-fuchsia-100">
+                    <div class="bg-green-500 text-white font-bold rounded px-4 py-2">05.</div>
+                    <div class="text-left">
+                        <h3 class="font-semibold text-lg flex items-center gap-2">
+                            <i class="fa-solid fa-wallet text-green-500"></i> Weekly Payments
+                        </h3>
+                        <p class="text-sm text-gray-600">Get paid quickly and reliably. We offer weekly payouts so you
+                            never have to wait for your hard-earned money.</p>
+                    </div>
+                </div>
+
+                <!-- Card 06 -->
+                <div class="bg-gray-50 rounded-xl shadow p-6 flex gap-4 items-start  hover:bg-fuchsia-100">
+                    <div class="bg-green-500 text-white font-bold rounded px-4 py-2">06.</div>
+                    <div class="text-left">
+                        <h3 class="font-semibold text-lg flex items-center gap-2">
+                            <i class="fa-solid fa-mobile-screen-button text-green-500"></i> Modern Booking System
+                        </h3>
+                        <p class="text-sm text-gray-600">Our app and booking system make it easy for you to accept jobs
+                            and manage your schedule with ease.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 07 -->
+                <div class="bg-gray-50 rounded-xl shadow p-6 flex gap-4 items-start  hover:bg-fuchsia-100">
+                    <div class="bg-green-500 text-white font-bold rounded px-4 py-2">07.</div>
+                    <div class="text-left">
+                        <h3 class="font-semibold text-lg flex items-center gap-2">
+                            <i class="fa-solid fa-thumbs-up text-green-500"></i> Low Commission Rates
+
+                        </h3>
+                        <p class="text-sm text-gray-600">Keep more of what you earn. We offer lower commission rates
+                            than many competitors.
+
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 08 -->
+                <div class="bg-gray-50 rounded-xl shadow p-6 flex gap-4 items-start  hover:bg-fuchsia-100">
+                    <div class="bg-green-500 text-white font-bold rounded px-4 py-2">08.</div>
+                    <div class="text-left">
+                        <h3 class="font-semibold text-lg flex items-center gap-2">
+                            <i class="fa-solid fa-shield-halved text-green-500"></i> Driver Rewards & Bonuses
+                        </h3>
+                        <p class="text-sm text-gray-600">Get rewarded for your hard work through regular incentives,
+                            bonuses, and loyalty perks.</p>
+                    </div>
+                </div>
+
+                <!-- Card 09 -->
+                <div class="bg-gray-50 rounded-xl shadow p-6 flex gap-4 items-start  hover:bg-fuchsia-100">
+                    <div class="bg-green-500 text-white font-bold rounded px-4 py-2">09.</div>
+                    <div class="text-left">
+                        <h3 class="font-semibold text-lg flex items-center gap-2">
+                            <i class="fa-solid fa-car text-green-500"></i> Join a Trusted Brand
+                        </h3>
+                        <p class="text-sm text-gray-600">Drive for a company that's known for reliability,
+                            professionalism, and excellent customer service.</p>
+                    </div>
+                </div>
+
+                <!-- Card 10 -->
+                <div class="bg-gray-50 rounded-xl shadow p-6 flex gap-4 items-start  hover:bg-fuchsia-100">
+                    <div class="bg-green-500 text-white font-bold rounded px-4 py-2">10.</div>
+                    <div class="text-left">
+                        <h3 class="font-semibold text-lg flex items-center gap-2">
+                            <i class="fa-solid fa-chart-line text-green-500"></i> Opportunities for Growth
+                        </h3>
+                        <p class="text-sm text-gray-600">Looking to do more? We offer opportunities to become a lead
+                            driver or even manage a fleet.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- last part  -->
+        <section id="become-driver" class="bg-green-700 text-white font-sans">
+            <div class="min-h-60 flex items-center justify-center px-4">
+                <div class="text-center mt-8">
+                    <h1 class="text-4xl font-bold mb-5">Become a Driver</h1>
+                    <p class="text-lg">Ready to start your journey with Soton Cars? Join our team of
+                        professional drivers today.</p>
+                    <div>
+                        <div class="max-w-4xl w-full grid md:grid-cols-2 gap-6 bg-green-600 p-10 rounded-lg shadow-lg">
+
+                            <!-- Left Section: Requirements -->
+                            <div>
+                                <h2 class="text-xl font-semibold mb-3">Requirements:</h2>
+                                <ul class="space-y-2">
+                                    <li class="flex items-center"><span class="text-green-200 mr-2">✔</span> Valid UK
+                                        driving
+                                        license</li>
+                                    <li class="flex items-center"><span class="text-green-200 mr-2">✔</span> Clean
+                                        driving
+                                        record</li>
+                                    <li class="flex items-center"><span class="text-green-200 mr-2">✔</span> Vehicle
+                                        insurance
+                                    </li>
+                                    <li class="flex items-center"><span class="text-green-200 mr-2">✔</span>
+                                        Professional
+                                        attitude</li>
+                                    <li class="flex items-center"><span class="text-green-200 mr-2">✔</span> Local area
+                                        knowledge</li>
+                                </ul>
+                            </div>
+
+                            <!-- Right Section: Apply Box -->
+                            <div class="bg-green-500 bg-opacity-30 p-6 rounded-lg shadow-inner">
+                                <h2 class="text-2xl font-semibold mb-3">Get Started Today</h2>
+                                <p class="mb-6">Fill out our simple application form and one of our team members will
+                                    contact
+                                    you within 24 hours.</p>
+                                <a href="https://wa.me/message/2GJINNWJQKDXJ1"><button class="btn btn-success bg-white text-green-700">Apply Now →</button></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+        </section>
+    </main>
+    <footer class="bg-slate-900 text-white px-8 py-12 ">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
+
+            <!-- Logo and Description -->
+            <div>
+                <img src="assest/Add a subheading (11).png" alt="Soton Cars Logo" class="w-25 h-20">
+                <p class="mb-4">Southampton's premier taxi service, connecting drivers with passengers through reliable,
+                    professional transportation solutions.</p>
+                <div class="flex gap-4 mt-4">
+                    <a class="text-green-400" href="https://www.facebook.com/sotoncarsUK"><i
+                            class="fa-brands fa-facebook fa-xl"></i></a>
+                    <a class="text-green-400" href="https://www.instagram.com/soton_cars_uk/
+                            "><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    <a class="text-green-400" href=""><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                    <a class="text-green-400" href="#"><i class="fa-brands fa-twitter fa-xl"></i></a>
+                    <a class="text-green-400" href="https://www.tiktok.com/@soton_cars?_t=ZN-8xDjHSaMu9u&_r=1"><i class="fa-solid fa-play"></i></a>
+                </div>
+            </div>
+
+            <!-- Contact Information -->
+          <section id="contact">
+              <div>
+                <h3 class="text-lg font-semibold mb-4">Contact Information</h3>
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-phone
+                         text-green-400"></i> +44 23 8033 3000</li>
+                         <li class="flex items-center gap-2"><i class="fa-solid fa-phone
+                         text-green-400"></i> 02380333000</li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-envelope text-green-400"></i>
+                        bookings@sotoncars.co.uk
+</li>
+
+                    <li class="flex items-start gap-2"><i class="fa-solid fa-location-dot text-green-400 mt-1"></i>
+                        <div>
+                            255A Foundry Lane, Shirley, Southampton SO15 3JS, United Kingdom
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+          </section>
+
+            <!-- Quick Links & Office Hours -->
+            <div>
+                <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                <ul class="space-y-2 mb-6">
+                    <li><a href="#Home" class="hover:underline">Home</a></li>
+                    <li><a href="#why-drive" class="hover:underline">Why Drive With Us</a></li>
+                    <li><a href="#become-driver" class="hover:underline">Become a Driver</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                </ul>
+                <!-- <h3 class="text-lg font-semibold mb-2">Office Hours</h3>
+                <ul class="text-sm space-y-1">
+                    <li>Monday - Friday: 8AM - 8PM</li>
+                    <li>Saturday: 9AM - 6PM</li>
+                    <li>Sunday: 10AM - 4PM</li>
+                </ul> -->
+            </div>
+        </div>
+
+        <div class="border-t border-gray-700 mt-10 pt-4 text-center text-sm text-gray-400">
+            © 2024 Soton Cars. All rights reserved. |
+            <a href="#" class="hover:underline">Privacy Policy</a> |
+            <a href="#" class="hover:underline">Terms of Service</a>
+        </div>
+    </footer>
+</body>
+
+</html>
